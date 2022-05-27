@@ -3,7 +3,7 @@ project(Trench_3)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Trench_3 main.cpp)
+add_executable(Trench_3 main.cpp main.h color_essentials.h color_essentials.cpp)
 
 set(OpenCV_DIR "C:\\opencv\\mingw-build")
 find_package( OpenCV REQUIRED )
